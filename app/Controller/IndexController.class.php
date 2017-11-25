@@ -3,8 +3,8 @@ namespace app\Controller;
 
 class IndexController
 {
-	public function index()
-	{
-		p('controller ok!');
-	}
+    public function index()
+    {
+        p('controller ok!');
+    }
 }

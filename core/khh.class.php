@@ -4,43 +4,43 @@ namespace core;
 
 class khh {
 
-	public static $classMap = [];
+    public static $classMap = [];
 
-	static public function run()
-	{
-		spl_autoload_register('core\khh::load');
+    static public function run()
+    {
+        spl_autoload_register('core\khh::load');
 
-		$route = new \core\route();
-		
-		$file = APP.'/Controller/'.$route->ctrl.'.class.php';
+        $route = new \core\route();
 
-		// p($file);
-		if(is_file($file)){
+        $file = APP.'/Controller/'.$route->ctrl.'.class.php';
 
-			include $file;
-			$ctrlClass = MODULE.'\Controller\\'.$route->ctrl;
-			$action = $route->action;
+        // p($file);
+        if(is_file($file)){
 
-			$c = new $ctrlClass();
-			$c->$action();
-		}
-	}
+            include $file;
+            $ctrlClass = MODULE.'\Controller\\'.$route->ctrl;
+            $action = $route->action;
 
-	static public function load($class)
-	{
-		if(isset(self::$classMap[$class])){
-			return true;
-		}else {
-			$class = str_replace('\\', '/', $class);
-			$file = KHH . '/' . $class .'.class.php';
+            $c = new $ctrlClass();
+            $c->$action();
+        }
+    }
 
-			if(is_file($file)){
-				include $file;
-				self::$classMap[$class] = $class;
-			}else{
-				return false;
-			}
-		}
-	}
+    static public function load($class)
+    {
+        if(isset(self::$classMap[$class])){
+            return true;
+        }else {
+            $class = str_replace('\\', '/', $class);
+            $file = KHH . '/' . $class .'.class.php';
+
+            if(is_file($file)){
+                include $file;
+                self::$classMap[$class] = $class;
+            }else{
+                return false;
+            }
+        }
+    }
 
 }
