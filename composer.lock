@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55f6c2e4bd979a78cd8c3aa41dfe6691",
+    "content-hash": "8f3cded25257c1ef1f1a0946c5092f8a",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -188,6 +188,39 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
+            "name": "kehuanhuan/khh-php-ramework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kehuanhuan/khh-php-framework.git",
+                "reference": "9e9ba5c5508883386434ab5842e0e2267e31722f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/kehuanhuan/khh-php-framework/9e9ba5c5508883386434ab5842e0e2267e31722f.zip",
+                "reference": "9e9ba5c5508883386434ab5842e0e2267e31722f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Khh\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "khh",
+                    "email": "1152018701@qq.com"
+                }
+            ],
+            "description": "khh php framework",
+            "time": "2017-11-26T07:54:20+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0.1",
             "source": {
@@ -241,7 +274,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kehuanhuan/khh-php-ramework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
