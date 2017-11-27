@@ -19,7 +19,11 @@ require __DIR__.'/bootstrap/autoload.php';
 use Kehuanhuan\Artisan;
 
 Artisan::command('hello', function () {
-    echo '11111';
+    echo '1';
+});
+
+Artisan::command('get', function () {
+    echo '2';
 });
 
 Artisan::dispatch();
