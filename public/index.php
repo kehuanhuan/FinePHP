@@ -21,18 +21,11 @@
 
 require __DIR__.'/../bootstrap/autoload.php';
 
-use Kehuanhuan\Route;
+$app = require_once __DIR__.'/../bootstrap/app.php';
+
+var_export($app->resolve());die();
 
 
-Route::get('/', function () {
-    echo 'hello world';
-});
-
-Route::get('/hello', function () {
-    echo 'hello world';
-});
-
-Route::dispatch();
 
 
 
