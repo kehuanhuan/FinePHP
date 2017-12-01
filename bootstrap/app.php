@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Kehuanhuan\Foundation\Application(
+$app = new Kehuanhuan\Foundation\Application    (
     realpath(__DIR__.'/../')
 );
 

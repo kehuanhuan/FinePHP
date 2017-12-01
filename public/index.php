@@ -23,7 +23,11 @@ require __DIR__.'/../bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-var_export($app->resolve());die();
+$app->bind('route', function () {
+    return new Kehuanhuan\Route();
+});
+
+echo $app->make('route')->work();
 
 
 
