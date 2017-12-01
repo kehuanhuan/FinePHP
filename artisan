@@ -16,19 +16,12 @@
 require __DIR__.'/bootstrap/autoload.php';
 
 
-use Kehuanhuan\Artisan;
-use Kehuanhuan\HandleError;
+$app = require_once __DIR__.'/bootstrap/app.php';
 
-new HandleError();
+$kernel = $app->make(Kehuanhuan\Contracts\Console\Kernel::class);
 
-Artisan::command('hello', function () {
-    echo '1';
-});
+$kernel->handle();
 
-Artisan::command('get', function () {
-    echo '2';
-});
 
-Artisan::dispatch();
 
 
