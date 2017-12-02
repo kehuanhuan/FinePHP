@@ -193,12 +193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kehuanhuan/khh-php-framework.git",
-                "reference": "0de411a3df8274d21e19ae75cc4e7c315abae8e3"
+                "reference": "3677191b029aed5f069ff4c13b0504ead05b5930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/kehuanhuan/khh-php-framework/0de411a3df8274d21e19ae75cc4e7c315abae8e3.zip",
-                "reference": "0de411a3df8274d21e19ae75cc4e7c315abae8e3",
+                "url": "https://files.phpcomposer.com/files/kehuanhuan/khh-php-framework/3677191b029aed5f069ff4c13b0504ead05b5930.zip",
+                "reference": "3677191b029aed5f069ff4c13b0504ead05b5930",
                 "shasum": ""
             },
             "type": "library",
@@ -218,7 +218,7 @@
                 }
             ],
             "description": "khh php framework",
-            "time": "2017-11-27T13:01:53+00:00"
+            "time": "2017-12-01T09:17:57+00:00"
         },
         {
             "name": "psr/http-message",

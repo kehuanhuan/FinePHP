@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Kehuanhuan\Foundation\Application    (
+$app = new Kehuanhuan\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
@@ -36,6 +36,9 @@ $app->bind(
     App\Console\Kernel::class
 );
 
+// $app->bind('artisan', function () {
+//     return new App\Console\Kernel();
+// });
 // $app->singleton(
 //     Illuminate\Contracts\Debug\ExceptionHandler::class,
 //     App\Exceptions\Handler::class
