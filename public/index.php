@@ -23,6 +23,10 @@ require __DIR__.'/../bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+http_response_code(403);
+
+throw new Exception("Error Processing Request", 430);
+
 
 
 
