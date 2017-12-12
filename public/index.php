@@ -23,9 +23,21 @@ require __DIR__.'/../bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-http_response_code(403);
+$kernel = $app->make(Kehuanhuan\Contracts\Http\Kernel::class);
 
-throw new Exception("Error Processing Request", 430);
+use Kehuanhuan\Routing\Router;
+
+Router::get('/hello', function () {
+    echo 'hello world!';
+});
+Router::get('/hell', function () {
+    echo 'hello world!';
+});
+
+$kernel->handle(
+    new  Kehuanhuan\Http\Request()
+);
+
 
 
 

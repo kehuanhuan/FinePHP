@@ -26,8 +26,8 @@ $app = new Kehuanhuan\Foundation\Application(
 |
 */
 
-$app->singleton(
-    Illuminate\Contracts\Http\Kernel::class,
+$app->bind(
+    Kehuanhuan\Contracts\Http\Kernel::class,
     App\Http\Kernel::class
 );
 
