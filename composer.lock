@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f3cded25257c1ef1f1a0946c5092f8a",
+    "content-hash": "03ba3c85167cf1a679e91d7640acb7d7",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -188,17 +188,17 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "kehuanhuan/khh-php-ramework",
+            "name": "kehuanhuan/fine",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kehuanhuan/khh-php-framework.git",
-                "reference": "3677191b029aed5f069ff4c13b0504ead05b5930"
+                "url": "https://github.com/kehuanhuan/Fine.git",
+                "reference": "e1bae582d9782e4a42fc59e16d0ce3577f75a7e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/kehuanhuan/khh-php-framework/3677191b029aed5f069ff4c13b0504ead05b5930.zip",
-                "reference": "3677191b029aed5f069ff4c13b0504ead05b5930",
+                "url": "https://files.phpcomposer.com/files/kehuanhuan/Fine/e1bae582d9782e4a42fc59e16d0ce3577f75a7e0.zip",
+                "reference": "e1bae582d9782e4a42fc59e16d0ce3577f75a7e0",
                 "shasum": ""
             },
             "type": "library",
@@ -217,8 +217,8 @@
                     "email": "1152018701@qq.com"
                 }
             ],
-            "description": "khh php framework",
-            "time": "2017-12-01T09:17:57+00:00"
+            "description": "php framework kernel code",
+            "time": "2017-12-15T02:32:49+00:00"
         },
         {
             "name": "psr/http-message",
@@ -275,7 +275,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "kehuanhuan/khh-php-ramework": 20
+        "kehuanhuan/fine": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
