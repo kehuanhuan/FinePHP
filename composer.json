@@ -1,7 +1,7 @@
 {
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "kehuanhuan/khh-php-ramework": "dev-master"
+        "kehuanhuan/fine": "dev-master"
     },
     "autoload": {
         "psr-4": {
