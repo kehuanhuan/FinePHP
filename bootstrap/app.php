@@ -36,6 +36,10 @@ $app->bind(
     App\Console\Kernel::class
 );
 
+$app->singleton('router',
+    Kehuanhuan\Routing\Router::class
+);
+
 // $app->singleton(
 //     Illuminate\Contracts\Debug\ExceptionHandler::class,
 //     App\Exceptions\Handler::class
