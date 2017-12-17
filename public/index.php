@@ -4,7 +4,7 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
+ * @author   Taylor Otwell <taylor@gmail.com>
  */
 
 /*
@@ -22,8 +22,6 @@
 require __DIR__.'/../bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
-
-
 
 $kernel = $app->make(Kehuanhuan\Contracts\Http\Kernel::class);
 

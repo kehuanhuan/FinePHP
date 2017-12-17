@@ -26,12 +26,12 @@ $app = new Kehuanhuan\Foundation\Application(
 |
 */
 
-$app->bind(
+$app->singleton(
     Kehuanhuan\Contracts\Http\Kernel::class,
     App\Http\Kernel::class
 );
 
-$app->bind(
+$app->singleton(
     Kehuanhuan\Contracts\Console\Kernel::class,
     App\Console\Kernel::class
 );
