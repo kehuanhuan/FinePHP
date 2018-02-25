@@ -1,23 +1,12 @@
 <?php
 
 /**
- * Laravel - A PHP Framework For Web Artisans
+ * FinePHP - A PHP Framework For Web Artisans
  *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@gmail.com>
+ * @package  FinePHP
+ * @author   Taylor Otwell <1152018701@qq.com>
  */
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader for
-| our application. We just need to utilize it! We'll simply require it
-| into the script here so that we don't have to worry about manual
-| loading any of our classes later on. It feels nice to relax.
-|
-*/
 
 require __DIR__.'/../bootstrap/autoload.php';
 

@@ -3,13 +3,13 @@
 use Kehuanhuan\Support\Facades\Route;
 
 Route::get('/hello/he', function () {
-    echo 'hello world!';
+    echo 'hello world! /je';
 });
 
 Route::get('/', function () {
     echo 'hello world!';
 });
 
-Route::get('/hell', function () {
+Route::get('/hello', function () {
     echo 'hello world!';
 });
