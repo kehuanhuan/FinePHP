@@ -1,9 +1,9 @@
 <?php
-namespace App\Http\Controller;
+namespace App\Http\Controllers;
 
 use Philo\Blade\Blade;
 
-class IndexController
+class IndexController extends Controller
 {
     public function index()
     {
