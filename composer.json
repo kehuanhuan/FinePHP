@@ -1,7 +1,8 @@
 {
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "kehuanhuan/fine": "dev-master"
+        "kehuanhuan/fine": "dev-master",
+        "philo/laravel-blade": "^3.1"
     },
     "autoload": {
         "psr-4": {
